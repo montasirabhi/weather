@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Outfit:wght@100..900&display=swap"
+    rel="stylesheet">
+  <title>Weather || Montasir</title>
+
+<body>
+  <div class="head">
+    <div class="logo">
+      <img src="assets/images/logo.svg">
+    </div>
+    <div class="button"></div>
+    <button
+      style=" background: #1E213A;border: 1px solid #6E707A;color: white;background-color: #3a3c5c;padding: 8px 16px;border-radius: 8px;font-size: 16px;cursor: pointer;"><i
+        class="fa-solid fa-gear"></i> Units <i class="fa-solid fa-angle-down"></i></button>
+  </div>
+  <h1>How's the sky looking today ?</h1>
+  <div class="search">
+    <i class="fa-solid fa-magnifying-glass"></i> <input type="text" placeholder="Search for places...">
+    <button class="searchbtn">Search</button>
+  </div>
+  <div class="main-content">
+    <!---------------------------------Left Side ---------------------->
+    <div class="left">
+      <div class="left-top">
+        <div class="left-top-left">
+          <img src="assets/images/bg-today-large.svg" alt="">
+        </div>
+        <div class="top-left">
+          <div class="location">Pabna , Bangladesh</div>
+          <div class="date">Tuesday ,Oct 04 , 2025</div>
+        </div>
+        <img src="assets/images/icon-sunny.webp" style="width: 100px; margin-left: 450px; margin-top:-60px; ">
+        <div class="left-right">
+          <div class="temp"><i>68<sup>°</sup></i> </div>
+        </div>
+      </div>
+      <div class="reports">
+        <div class="temp-card">
+          <p>Feels Like</p>
+          <span><i>64<sup>°</sup></i> </span>
+        </div>
+        <div class="temp-card">
+          <p>Humidity</p>
+          <span>46% </span>
+        </div>
+        <div class="temp-card">
+          <p>Wind</p>
+          <span>9 mph</span>
+        </div>
+        <div class="temp-card">
+          <p>Precipitation</p>
+          <span>0 in </span>
+        </div>
+      </div>
+      <p style="margin-left:-78%;" class="daily">Daily forecast</p>
+      <div class="week-reports">
+        <div class="day-card">
+          <p>Tue</p>
+          <img src="assets/images/icon-rain.webp" style="width: 40px;">
+          <span>
+            <p>68<sup>o</sup></p>
+            <p>57<sup>o</sup></p>
+          </span>
+        </div>
+        <div class="day-card">
+          <p>Wed</p>
+          <img src="assets/images/icon-drizzle.webp" style="width: 40px;">
+          <span>
+            <p>70<sup>o</sup></p>
+            <p>59<sup>o</sup></p>
+          </span>
+        </div>
+        <div class="day-card">
+          <p>Thu</p>
+          <img src="assets/images/icon-sunny.webp" style="width: 40px;">
+          <span>
+            <p>75<sup>o</sup></p>
+            <p>57<sup>o</sup></p>
+          </span>
+        </div>
+        <div class="day-card">
+          <p>Fri</p>
+          <img src="assets/images/icon-partly-cloudy.webp" style="width: 40px;">
+          <span>
+            <p>77<sup>o</sup></p>
+            <p>55<sup>o</sup></p>
+          </span>
+        </div>
+        <div class="day-card">
+          <p>Sat</p>
+          <img src="assets/images/icon-storm.webp" style="width: 40px;">
+          <span>
+            <p>70<sup>o</sup></p>
+            <p>59<sup>o</sup></p>
+          </span>
+        </div>
+        <div class="day-card">
+          <p>Sun</p>
+          <img src="assets/images/icon-snow.webp" style="width: 40px;">
+          <span>
+            <p>77<sup>o</sup></p>
+            <p>61<sup>o</sup></p>
+          </span>
+        </div>
+        <div class="day-card">
+          <p>Mon</p>
+          <img src="assets/images/icon-fog.webp" style="width: 40px;">
+          <span>
+            <p>75<sup>o</sup></p>
+            <p>59<sup>o</sup></p>
+          </span>
+        </div>
+      </div>
+    </div>
+    <!---------------------------------Right Side ---------------------->
+    <div class="right">
+      <div class="card">
+        <div class="head2">
+          <div class="logo2">
+            Hourly forecast
+          </div>
+          <div class="button"></div>
+          <button
+            style=" background: #1E213A;border: 1px solid #6E707A;color: white;background-color: #3a3c5c;padding: 8px 16px;border-radius: 8px;font-size: 16px;cursor: pointer;">
+            Thusday <i class="fa-solid fa-angle-down"></i></button>
+        </div>
+        <div class="cards">
+          <div class="cardx">
+            <div class="left_cards">
+              <div class="img">
+                <img src="assets/images/icon-overcast.webp" style="width: 40px;">
+              </div>
+              <div class="time">3 PM</div>
+            </div>
+            <div class="right-cards">
+              <div class="temp">68<sup>°</sup></div>
+            </div>
+          </div>
+          <div class="cardx">
+            <div class="left_cards">
+              <div class="img">
+                <img src="assets/images/icon-partly-cloudy.webp" style="width: 40px;">
+              </div>
+              <div class="time">4 PM</div>
+            </div>
+            <div class="right-cards">
+              <div class="temp">68<sup>°</sup></div>
+            </div>
+          </div>
+          <div class="cardx">
+            <div class="left_cards">
+              <div class="img">
+                <img src="assets/images/icon-sunny.webp" style="width: 40px;">
+              </div>
+              <div class="time">5 PM</div>
+            </div>
+            <div class="right-cards">
+              <div class="temp">68<sup>°</sup></div>
+            </div>
+          </div>
+          <div class="cardx">
+            <div class="left_cards">
+              <div class="img">
+                <img src="assets/images/icon-overcast.webp" style="width: 40px;">
+              </div>
+              <div class="time">6 PM</div>
+            </div>
+            <div class="right-cards">
+              <div class="temp">66<sup>°</sup></div>
+            </div>
+          </div>
+          <div class="cardx">
+            <div class="left_cards">
+              <div class="img">
+                <img src="assets/images/icon-snow.webp" style="width: 40px;">
+              </div>
+              <div class="time">7 PM</div>
+            </div>
+            <div class="right-cards">
+              <div class="temp">66<sup>°</sup></div>
+            </div>
+          </div>
+          <div class="cardx">
+            <div class="left_cards">
+              <div class="img">
+                <img src="assets/images/icon-fog.webp" style="width: 40px;">
+              </div>
+              <div class="time">8 PM</div>
+            </div>
+            <div class="right-cards">
+              <div class="temp">64<sup>°</sup></div>
+            </div>
+          </div>
+          <div class="cardx">
+            <div class="left_cards">
+              <div class="img">
+                <img src="assets/images/icon-snow.webp" style="width: 40px;">
+              </div>
+              <div class="time">9 PM</div>
+            </div>
+            <div class="right-cards">
+              <div class="temp">63<sup>°</sup></div>
+            </div>
+          </div>
+          <div class="cardx">
+            <div class="left_cards">
+              <div class="img">
+                <img src="assets/images/icon-overcast.webp" style="width: 40px;">
+              </div>
+              <div class="time">10 PM</div>
+            </div>
+            <div class="right-cards">
+              <div class="temp">63<sup>°</sup></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>
