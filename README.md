@@ -7,12 +7,12 @@ The project is designed to showcase **current weather, hourly forecast, and a 7-
 
 ## Features
 
-✅ **Search bar** – Find weather by location
-✅ **Current weather section** – Location, date, temperature, and weather condition
-✅ **Weather reports** – Feels Like, Humidity, Wind, Precipitation
-✅ **7-day forecast** – Daily weather with icons and min/max temperature
-✅ **Hourly forecast** – Interactive card layout showing hourly updates
-✅ **Responsive design** – Works across desktop and mobile
+✅ **Search bar** – Find weather by location <br>
+✅ **Current weather section** – Location, date, temperature, and weather condition <br>
+✅ **Weather reports** – Feels Like, Humidity, Wind, Precipitation <br>
+✅ **7-day forecast** – Daily weather with icons and min/max temperature <br>
+✅ **Hourly forecast** – Interactive card layout showing hourly  <br>
+✅ **Responsive design** – Works across desktop and mobile <br>
 
 ---
 
