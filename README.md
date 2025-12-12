@@ -1,4 +1,4 @@
-# Weather Web App
+# Weather Web Application
 
 The  **Weather Forecast Web App UI** built with **HTML, CSS, and Font Awesome**.
 The project is designed to showcase **current weather, hourly forecast, and a 7-day forecast** with a clean and modern interface.
